@@ -746,7 +746,7 @@ APIRET APIENTRY UsbBulkRead (USBHANDLE Handle,
                              ULONG ulTimeout)
 {
   return UsbDataTransfer (Handle,Endpoint,AltInterface,pulNumBytes,pucData,
-                          ulTimeout,USB_TRANSFER_FULL_SIZE);
+                          ulTimeout,0); //USB_TRANSFER_FULL_SIZE
 }
 
 APIRET APIENTRY UsbBulkWrite (USBHANDLE Handle,
