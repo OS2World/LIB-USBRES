@@ -1,4 +1,4 @@
-USBRES02.ZIP - USB Resource Manager for OS/2 (and eComStation)
+USBRES03.ZIP - USB Resource Manager for OS/2 (and eComStation)
 ==============================================================
 
 May be freely used and exchanged, as long as it is not modified. You may
@@ -11,7 +11,7 @@ The current sources are at netlabs in my private branch:
 https://svn.netlabs.org/repos/usb/basedrv/branches/wim/usbresmgr
 https://svn.netlabs.org/repos/usb/basedrv/branches/wim/usbcalls
 
-Changeset [1220]: USBCALLS: fix UsbBulkRead for PtPro110.
+SVN [1251]: USBRESMGR: fix ReleaseDevice to cancel all outstanding requests
 
 For more information see my "USB Resource Manager" web page:
 
@@ -27,7 +27,7 @@ interrupt write and isochronous transfers.
 
 Installation
 ------------
-Move USBRES02.ZIP into a directory of your choice and unzip it.
+Move USBRES03.ZIP into a directory of your choice and unzip it.
 In order to replace USBCALLS.DLL you may have to close the eCenter first.
 Replace USBCALLS.DLL and USBCALLS.SYM in your \ECS\DLL or \OS2\DLL directory
 and USBRESMG.SYS and USBRESMG.SYM in your \ECS\BOOT or \OS2\BOOT directory.
